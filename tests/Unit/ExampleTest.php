@@ -13,16 +13,9 @@ class ExampleTest extends TestCase
     {
         $this->assertTrue(true);
     }
-}
-
-class BadExampleTest extends TestCase
-{
-    /**
-     * A basic test example.
-     */
-    public function test_that_true_is_true(): void
+    public function test_that_true_is_false(): void
     {
-        $bol = false;
-        $this->assertEquals(true, $bol);
+        $bool = false;
+        $this->assertTrue($bool);
     }
 }
