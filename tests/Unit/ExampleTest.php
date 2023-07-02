@@ -18,9 +18,4 @@ class ExampleTest extends TestCase
         $bool = false;
         $this->assertTrue($bool);
     }
-    public function test_that_true_is__not_false(): void
-    {
-        $bool = false;
-        $this->assertTrue($bool);
-    }
 }
