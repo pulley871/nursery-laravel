@@ -14,3 +14,15 @@ class ExampleTest extends TestCase
         $this->assertTrue(true);
     }
 }
+
+class BadExampleTest extends TestCase
+{
+    /**
+     * A basic test example.
+     */
+    public function test_that_true_is_true(): void
+    {
+        $bol = false;
+        $this->assertTrue($bol);
+    }
+}
